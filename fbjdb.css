@@ -40,6 +40,9 @@ a {
 }
 .container {
     position: relative;
+    border: 1px solid;
+    padding: 1px;
+    border-color: rgb(148, 55, 55);
   }
   
   .image {
@@ -78,5 +81,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: blue;
+  color: rgb(247, 249, 250);
+}
+.lottie{
+  display: flex;
+  justify-content: space-between;
+}
+.hello{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  align-items: center;
 }
